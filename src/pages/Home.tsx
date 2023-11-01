@@ -28,10 +28,6 @@ const list = [
         link: "/circle",
       },
       {
-        title: "Drop Water",
-        link: "/dropwater",
-      },
-      {
         title: "Matter.js",
         link: "/matter",
       },
