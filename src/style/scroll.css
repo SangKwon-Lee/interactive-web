@@ -1,0 +1,181 @@
+
+#main-image-wrapper{
+	padding-top:40px;
+	text-align: center;
+}
+
+#intro-main{
+	display: flex;
+	margin:54px auto 140px;
+	width: 300px;
+	justify-content: center;
+	color:white;
+	font-size:40px;
+	font-weight: 500;
+	flex-direction: column;
+	align-items: center;
+	gap:20px;
+}
+
+#intro-main p{
+	text-align: center;
+}
+
+#join-us-text{
+	opacity: 0.6;
+	font-size:16px;
+	font-weight: 400;
+	margin-top:72px;
+}
+
+
+@keyframes upAndDown {
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+#down-arrow-icon{
+	width: 32px;
+	animation: upAndDown 1s infinite;
+}
+
+#list-item-wrapper{
+	margin:0 auto 50px;
+	width: 383px;
+}
+
+.list-item{
+	display: inline;
+	font-size:48px;
+	font-weight: 600;
+	align-items: center;
+}
+
+.list-item::before{
+	display: inline-block;
+	content: "";
+	background-size: 48px 51px;
+	width: 48px;
+	height: 51px;
+	background-image: url(../assets/scroll/dark_house.png);
+}
+
+.list-item#on{
+	color: white;
+}
+
+.list-item#on::before{
+	background-image: url(../assets/scroll/light_house.png);
+}
+
+#panel1-img{
+	position:relative;
+	height: 400px;
+	margin-bottom: 120px;
+	overflow: hidden;
+}
+
+#flying-santa-image{
+	position: absolute;
+	right:-80px;
+	transform: rotate(23deg);
+	height:310px;
+}
+
+#video-section{
+	margin-bottom:500px;
+}
+
+#video{
+	display: block;
+	margin:0 auto;
+	width:  350px;
+}
+
+
+#fixed-description {
+	width: 240px;
+	text-align: right;
+	margin: 0 auto;
+	font-size:36px;
+	font-weight: 600;
+	color:white;
+	opacity: 0;
+	transform: translateY(50px);
+}
+
+#bank-beyond-wrapper{
+	height: 380px;
+	margin-bottom: 100px;
+}
+
+#bank-beyond{
+	display: flex;
+	justify-content: center;
+}
+
+#white-wrapper{
+	position: relative;
+	background-color: #f7f7f7;
+	height: 100vh;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+
+
+#slider-container {
+	margin:0 auto;
+	position:relative;
+	width: 300px;
+}
+
+#slider-content-wrapper{
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+}
+#slider-content-wrapper::-webkit-scrollbar{
+	width: 0;
+}
+
+#slider-content{
+	display: flex;
+	height: auto;
+}
+
+.slider-image{
+	width: 300px;
+	height: 466px;
+	scroll-snap-align: center;
+}
+
+.slider-button{
+	position: absolute;
+	font-size:30px;
+	cursor: pointer;
+}
+
+#left-button {
+	left:10px;	
+}
+
+#right-button{
+	right:10px;
+}
+
+
+#slider-index{
+	position:absolute;
+	left:50%;
+	bottom: -20px;
+	font-size:16px;
+	transform: translateX(-50%);
+}
