@@ -10,7 +10,7 @@ html, body{
   --border02: 6px double var(--color-border);
 
   font-family:  'Noto Sans KR', sans-serif;
-  background-color: var(--color-bg);
+  background-color: white;
   color: var(--color-text);
 
   overflow-x: hidden;

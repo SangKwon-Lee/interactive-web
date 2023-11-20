@@ -33,6 +33,39 @@ const list = [
       },
     ],
   },
+  {
+    type: "3D",
+    pages: [
+      {
+        title: "Cube",
+        link: "/cube",
+      },
+      {
+        title: "text",
+        link: "/text",
+      },
+      {
+        title: "card",
+        link: "/card",
+      },
+      {
+        title: "scroll-wave",
+        link: "/scroll-wave",
+      },
+      {
+        title: "particle",
+        link: "/particle3d",
+      },
+      {
+        title: "cube map",
+        link: "/cubemap",
+      },
+      {
+        title: "character",
+        link: "/character",
+      },
+    ],
+  },
 ];
 export default function Home() {
   return (
