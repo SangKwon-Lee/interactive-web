@@ -7,7 +7,9 @@ import { TextureLoader } from "three/src/loaders/TextureLoader";
 import { Environment } from "@react-three/drei";
 import { useRef } from "react";
 import * as THREE from "three";
-const Earth = () => {
+import Effects from "./Effect";
+
+const EarthPostProcessing = () => {
   const earthMap = useLoader(
     TextureLoader,
     "./src/assets/earth/earth_night.jpg"
@@ -166,6 +168,8 @@ const Earth = () => {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
       <Canvas>
+        {/* <EffectComposer>
+        </EffectComposer> */}
         <Environment
           background
           files={"./src/assets/earth/qwantani_puresky_4k.hdr"}
@@ -177,10 +181,11 @@ const Earth = () => {
           position={[2.65, 2.13, 1.02]}
           color={0xffffff}
         />
+        <Effects />
         <Earth />
       </Canvas>
     </div>
   );
 };
 
-export default Earth;
+export default EarthPostProcessing;

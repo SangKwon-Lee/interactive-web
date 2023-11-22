@@ -17,6 +17,7 @@ import Character from "./pages/Character";
 import Boiler2 from "./pages/Boiler2";
 import Boiler3 from "./pages/Boiler3";
 import Earth from "./pages/Earth";
+import EarthPostProcessing from "./pages/EarthPostProcessing";
 function App() {
   return (
     <>
@@ -40,6 +41,7 @@ function App() {
         <Route path="/boiler" element={<Boiler2 />} />
         <Route path="/boiler3" element={<Boiler3 />} />
         <Route path="/earth" element={<Earth />} />
+        <Route path="/earth2" element={<EarthPostProcessing />} />
       </Routes>
     </>
   );
