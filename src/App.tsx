@@ -14,6 +14,9 @@ import ScrollWave from "./pages/ScrollWave";
 import Particle from "./pages/Particle3d";
 import CubeMap from "./pages/CubeMap";
 import Character from "./pages/Character";
+import Boiler2 from "./pages/Boiler2";
+import Boiler3 from "./pages/Boiler3";
+import Earth from "./pages/Earth";
 function App() {
   return (
     <>
@@ -34,6 +37,9 @@ function App() {
         <Route path="/particle3d" element={<Particle />} />
         <Route path="/cubemap" element={<CubeMap />} />
         <Route path="/character" element={<Character />} />
+        <Route path="/boiler" element={<Boiler2 />} />
+        <Route path="/boiler3" element={<Boiler3 />} />
+        <Route path="/earth" element={<Earth />} />
       </Routes>
     </>
   );
