@@ -64,6 +64,18 @@ const list = [
         title: "character",
         link: "/character",
       },
+      {
+        title: "earth",
+        link: "/earth",
+      },
+      {
+        title: "earth2",
+        link: "/earth2",
+      },
+      {
+        title: "earth3",
+        link: "/earth3",
+      },
     ],
   },
 ];

@@ -18,6 +18,7 @@ import Boiler2 from "./pages/Boiler2";
 import Boiler3 from "./pages/Boiler3";
 import Earth from "./pages/Earth";
 import EarthPostProcessing from "./pages/EarthPostProcessing";
+// import Earth3 from "./pages/Earth3";
 function App() {
   return (
     <>
@@ -42,6 +43,7 @@ function App() {
         <Route path="/boiler3" element={<Boiler3 />} />
         <Route path="/earth" element={<Earth />} />
         <Route path="/earth2" element={<EarthPostProcessing />} />
+        {/* <Route path="/earth3" element={<Earth3 />} /> */}
       </Routes>
     </>
   );
